@@ -1,0 +1,147 @@
+/* General styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #307D7e;
+  color: white;
+  padding: 15px 30px;
+}
+
+header .logo {
+  height: 70px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #2b3856; 
+}
+
+h2 {
+  color: #00897b; 
+}
+
+h3 {
+  color: #616d7e; 
+}
+
+h4 {
+  color: #1589ff; 
+}
+
+h5 {
+  color: #008080;
+}
+
+h6 {
+  color: #3ea99f; 
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fffafa;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+legend {
+  font-weight: bold;
+  color: #004aad;
+}
+
+label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.btn {
+  background-color: #25383c;;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #e3319d;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #43bfc7;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #254117;
+}
+
+/* Quote */
+.quote-output {
+  background-color: #f0f4ff;
+  border: 1px solid #ccd9ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #15317e;
+  color: white;
+  margin-top: 30px;
+}
