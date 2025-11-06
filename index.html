@@ -3,59 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empowering the Nation</title>
+  <title>Empowering the Nation | Home</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
 </head>
 <body>
+
   <header>
-    <img src="images/logo.png" alt="Empowering the Nation logo" class="logo">
-    <div>
-      <strong>Empowering the Nation</strong><br>
-      <small><i>Knowledge empowers practical skills</i></small>
-    </div>
-    <nav>
-      <a href="index.html"><strong>Home</strong></a>
-      <a href="courses.html"><strong>Courses</strong></a>
-      <a href="calculator.html"><strong>Calculate Fees</strong></a>
-      <a href="contact.html"><strong>Contact</strong></a>
+    <img src="logo.jpg" alt="Empowering the Nation logo" class="logo">
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="copy">
-        <h1>Empowering the Nation</h1>
-        <p>We provide skills training for domestic workers and gardeners to help them become more marketable and empowered to start their own small businesses.</p>
-        <div class="buttons">
-          <a class="btn" href="courses.html#six-month">Six-Month Courses</a>
-          <a class="btn" href="courses.html#six-week">Six-Week Courses</a>
-          <a class="btn" href="calculator.html">Get a Quote</a>
-        </div>
-      </div>
-    </section>
+    <h1>Welcome to Empowering the Nation</h1>
+    <p>We provide training courses to empower domestic workers, gardeners, and community members with valuable life and work skills.</p>
 
-    <section class="summary">
-      <h2>Available Courses</h2>
-      <p><strong>Six-Month Courses</strong> (R1500 each)</p>
-      <ul>
-        <li><a href="course.html?code=first-aid">First Aid</a></li>
-        <li><a href="course.html?code=sewing">Sewing</a></li>
-        <li><a href="course.html?code=landscaping">Landscaping</a></li>
-        <li><a href="course.html?code=life-skills">Life Skills</a></li>
-      </ul>
+    <h2>Explore Our Courses</h2>
+    <button class="btn" onclick="location.href='courses.html#six-month'">Six-Month Courses</button>
+    <button class="btn" onclick="location.href='courses.html#six-week'">Six-Week Courses</button>
+    <button class="btn" onclick="location.href='calculator.html'">Get a Quote</button>
 
-      <p><strong>Six-Week Courses</strong> (R750 each)</p>
-      <ul>
-        <li><a href="course.html?code=child-minding">Child Minding</a></li>
-        <li><a href="course.html?code=cooking">Cooking</a></li>
-        <li><a href="course.html?code=garden-maintenance">Garden Maintenance</a></li>
-      </ul>
-    </section>
+    <h3>Available Courses:</h3>
+    <ul>
+      <li>First Aid</li>
+      <li>Sewing</li>
+      <li>Landscaping</li>
+      <li>Life Skills</li>
+      <li>Cooking</li>
+      <li>Child Minding</li>
+      <li>Garden Maintenance</li>
+    </ul>
   </main>
 
   <footer>
-    <small>&copy; <span id="year"></span> Empowering the Nation</small>
+    <p>&copy; <span id="year"></span> Empowering the Nation. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

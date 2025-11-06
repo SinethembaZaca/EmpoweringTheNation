@@ -3,40 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Empowering the Nation</title>
+  <title>Contact Us | Empowering the Nation</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="js/script.js"></script>
 </head>
 <body>
+
   <header>
-    <img src="images/logo.png" alt="Logo" class="logo">
-    <nav>
-      <a href="index.html"><strong>Home</strong></a>
-      <a href="courses.html"><strong>Courses</strong></a>
-      <a href="calculator.html"><strong>Calculate Fees</strong></a>
-      <a href="contact.html"><strong>Contact</strong></a>
+    <img src="logo.jpg" alt="Empowering the Nation logo" class="logo">
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="contact.html">Contact</a>
     </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
   </header>
 
   <main>
     <h1>Contact Us</h1>
-    <p>Phone: 011 456 7890<br>Email: info@empoweringthenation.co.za</p>
+    <p>Email: info@empoweringthenation.co.za</p>
+    <p>Phone: 011 456 7890</p>
 
     <h3>Training Venues</h3>
-    <ul>
-      <li>Soweto Campus</li>
+    <li>Soweto Campus</li>
       <iframe src="https://maps.google.com/maps?q=Soweto%20Johannesburg&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-
-      <li>Sandton Training Centre</li>
+          <li>Sandton Training Centre</li>
       <iframe src="https://maps.google.com/maps?q=Sandton%20Johannesburg&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 
       <li>Midrand Skills Hub</li>
       <iframe src="https://maps.google.com/maps?q=Midrand%20Johannesburg&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
     </ul>
-
+    <br></br>
     <button class="back-btn" onclick="history.back()">← Back</button>
   </main>
 
-  <footer><small>&copy; <span id="year"></span> Empowering the Nation</small></footer>
+  <footer>
+    <p>&copy; <span id="year"></span> Empowering the Nation. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
