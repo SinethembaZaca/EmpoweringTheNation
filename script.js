@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Mobile menu toggle
+const toggle = document.getElementById('menu-toggle');
+const nav = document.querySelector('.navbar');
+toggle.addEventListener('click', () => nav.classList.toggle('active'));
+
 // Course fees
 const courseFees = {
   "first-aid": 1500,
